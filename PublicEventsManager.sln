@@ -5,19 +5,17 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublicEventsManager.UI", "PublicEventsManager.UI.csproj", "{CB7F627E-390A-472A-8702-712E497678AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublicEventsManager.Entities", "..\PublicEventsManager.Entities\PublicEventsManager.Entities.csproj", "{49E8D8C1-F08B-498A-892E-9E2A9DBC3A34}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublicEventsManager.Repositories", "PublicEventsManager.Repositories\PublicEventsManager.Repositories.csproj", "{7D323CA3-93DA-4781-9B85-A98802F8E650}"
-EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PublicEventsManagerSetup", "..\PublicEventsManagerSetup\PublicEventsManagerSetup.vdproj", "{A594DD92-8E66-4EF5-92E2-CBF1E25EBF78}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublicEventsmanager.SQLQueries", "PublicEventsmanager.SQLQueries", "{51BF4266-64D6-446E-9E85-85DF6D7E6028}"
 	ProjectSection(SolutionItems) = preProject
-		C:\Users\vip\Desktop\PublicEventsManager\PublicEventsManager.Database\create.sql = C:\Users\vip\Desktop\PublicEventsManager\PublicEventsManager.Database\create.sql
-		C:\Users\vip\Desktop\PublicEventsManager\PublicEventsManager.Database\drop.sql = C:\Users\vip\Desktop\PublicEventsManager\PublicEventsManager.Database\drop.sql
-		C:\Users\vip\Desktop\PublicEventsManager\PublicEventsManager.Database\insert.sql = C:\Users\vip\Desktop\PublicEventsManager\PublicEventsManager.Database\insert.sql
-		C:\Users\vip\Desktop\PublicEventsManager\PublicEventsManager.Database\procs.sql = C:\Users\vip\Desktop\PublicEventsManager\PublicEventsManager.Database\procs.sql
+		..\..\..\..\PublicEventsManager\PublicEventsManager.Database\create.sql = ..\..\..\..\PublicEventsManager\PublicEventsManager.Database\create.sql
+		..\..\..\..\PublicEventsManager\PublicEventsManager.Database\drop.sql = ..\..\..\..\PublicEventsManager\PublicEventsManager.Database\drop.sql
+		..\..\..\..\PublicEventsManager\PublicEventsManager.Database\insert.sql = ..\..\..\..\PublicEventsManager\PublicEventsManager.Database\insert.sql
+		..\..\..\..\PublicEventsManager\PublicEventsManager.Database\procs.sql = ..\..\..\..\PublicEventsManager\PublicEventsManager.Database\procs.sql
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublicEventsManager.Entities", "ClassLibrary1\PublicEventsManager.Entities.csproj", "{7D5209F6-BFA2-4388-8D81-B1013D8145C1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,16 +27,14 @@ Global
 		{CB7F627E-390A-472A-8702-712E497678AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB7F627E-390A-472A-8702-712E497678AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB7F627E-390A-472A-8702-712E497678AF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{49E8D8C1-F08B-498A-892E-9E2A9DBC3A34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{49E8D8C1-F08B-498A-892E-9E2A9DBC3A34}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{49E8D8C1-F08B-498A-892E-9E2A9DBC3A34}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{49E8D8C1-F08B-498A-892E-9E2A9DBC3A34}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7D323CA3-93DA-4781-9B85-A98802F8E650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7D323CA3-93DA-4781-9B85-A98802F8E650}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D323CA3-93DA-4781-9B85-A98802F8E650}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D323CA3-93DA-4781-9B85-A98802F8E650}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A594DD92-8E66-4EF5-92E2-CBF1E25EBF78}.Debug|Any CPU.ActiveCfg = Debug
-		{A594DD92-8E66-4EF5-92E2-CBF1E25EBF78}.Release|Any CPU.ActiveCfg = Release
+		{7D5209F6-BFA2-4388-8D81-B1013D8145C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D5209F6-BFA2-4388-8D81-B1013D8145C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D5209F6-BFA2-4388-8D81-B1013D8145C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D5209F6-BFA2-4388-8D81-B1013D8145C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

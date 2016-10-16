@@ -44,7 +44,7 @@
         /// Gets or sets public event all tickets amount value
         /// </summary>
         public int TicketsAmount { get; set; }
-        
+
         /// <summary>
         /// Gets or sets public event current available tickets amount value
         /// </summary>

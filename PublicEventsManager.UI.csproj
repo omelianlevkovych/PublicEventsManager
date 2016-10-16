@@ -113,8 +113,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PublicEventsManager.Entities\PublicEventsManager.Entities.csproj">
-      <Project>{49e8d8c1-f08b-498a-892e-9e2a9dbc3a34}</Project>
+    <ProjectReference Include="ClassLibrary1\PublicEventsManager.Entities.csproj">
+      <Project>{7d5209f6-bfa2-4388-8d81-b1013d8145c1}</Project>
       <Name>PublicEventsManager.Entities</Name>
     </ProjectReference>
     <ProjectReference Include="PublicEventsManager.Repositories\PublicEventsManager.Repositories.csproj">
