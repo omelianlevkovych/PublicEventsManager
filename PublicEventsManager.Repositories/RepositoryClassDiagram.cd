@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PublicEventsManager.Repositories.BaseRepository">
+    <Position X="2.5" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>BaseRepository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEventsManager.Repositories.EventDateRepository">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAABAAAA=</HashCode>
+      <FileName>EventDateRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.95" />
+  </Class>
+  <Class Name="PublicEventsManager.Repositories.EventTypeRepository">
+    <Position X="2" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAABAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>EventTypeRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PublicEventsManager.Repositories.ManagerRepository">
+    <Position X="3.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ManagerRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PublicEventsManager.Repositories.PublicEventRepository">
+    <Position X="5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQEAAgAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>PublicEventRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PublicEventsManager.Repositories.TicketRepository">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>TicketRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="PublicEventsManager.Repositories.IEventDateRepository">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAABAAAA=</HashCode>
+      <FileName>IEventDateRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PublicEventsManager.Repositories.IEventTypeRepository">
+    <Position X="7.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAABAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>IEventTypeRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PublicEventsManager.Repositories.IManagerRepository">
+    <Position X="7.5" Y="4.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IManagerRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PublicEventsManager.Repositories.IPublicEventRepository">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQEAAgAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>IPublicEventRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="PublicEventsManager.Repositories.ITicketRepository">
+    <Position X="7.25" Y="1.5" Width="1.25" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>ITicketRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

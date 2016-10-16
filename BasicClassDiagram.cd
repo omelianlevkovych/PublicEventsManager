@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PublicEventsManager.Models.PublicEventViewModel">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAgAAAAAAIAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\PublicEventViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEventsManager.BusinessLogic.CurrentManager">
+    <Position X="0.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAAAEAAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAEg=</HashCode>
+      <FileName>BusinessLogic\CurrentManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEventsManager.BusinessLogic.MD5Hash">
+    <Position X="3.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessLogic\MD5Hash.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

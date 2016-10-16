@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="PublicEventsManager.Entities.EventDate">
+    <Position X="5.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAIAAQABAAAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EventDate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEventsManager.Entities.EventType">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EventType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEventsManager.Entities.Manager">
+    <Position X="4" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAAAAAAAAAAAAAAAAAAAAAAAAECAAAQAAAAAAg=</HashCode>
+      <FileName>Manager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEventsManager.Entities.PublicEvent">
+    <Position X="1.75" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAgAAAAAgAAIAAAIIIAQAAAAAAACAAAAAAAgAAAA=</HashCode>
+      <FileName>PublicEvent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PublicEventsManager.Entities.Ticket">
+    <Position X="5.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAQAAAAAAAAAAAAAAAiAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ticket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
