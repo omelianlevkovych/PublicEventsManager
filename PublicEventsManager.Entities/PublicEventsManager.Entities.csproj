@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7D5209F6-BFA2-4388-8D81-B1013D8145C1}</ProjectGuid>
+    <ProjectGuid>{4B6A570E-B82B-403C-9CDC-ED3A9C297FB2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ClassLibrary1</RootNamespace>
-    <AssemblyName>ClassLibrary1</AssemblyName>
+    <RootNamespace>PublicEventsManager.Entities</RootNamespace>
+    <AssemblyName>PublicEventsManager.Entities</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

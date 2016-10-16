@@ -57,8 +57,8 @@
     <None Include="RepositoryClassDiagram.cd" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\PublicEventsManager.Entities.csproj">
-      <Project>{7d5209f6-bfa2-4388-8d81-b1013d8145c1}</Project>
+    <ProjectReference Include="..\PublicEventsManager.Entities\PublicEventsManager.Entities.csproj">
+      <Project>{4b6a570e-b82b-403c-9cdc-ed3a9c297fb2}</Project>
       <Name>PublicEventsManager.Entities</Name>
     </ProjectReference>
   </ItemGroup>

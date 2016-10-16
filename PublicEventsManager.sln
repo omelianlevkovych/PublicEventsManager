@@ -15,7 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublicEventsmanager.SQLQuer
 		..\..\..\..\PublicEventsManager\PublicEventsManager.Database\procs.sql = ..\..\..\..\PublicEventsManager\PublicEventsManager.Database\procs.sql
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublicEventsManager.Entities", "ClassLibrary1\PublicEventsManager.Entities.csproj", "{7D5209F6-BFA2-4388-8D81-B1013D8145C1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublicEventsManager.Entities", "PublicEventsManager.Entities\PublicEventsManager.Entities.csproj", "{4B6A570E-B82B-403C-9CDC-ED3A9C297FB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,10 +31,10 @@ Global
 		{7D323CA3-93DA-4781-9B85-A98802F8E650}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D323CA3-93DA-4781-9B85-A98802F8E650}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D323CA3-93DA-4781-9B85-A98802F8E650}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7D5209F6-BFA2-4388-8D81-B1013D8145C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7D5209F6-BFA2-4388-8D81-B1013D8145C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7D5209F6-BFA2-4388-8D81-B1013D8145C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7D5209F6-BFA2-4388-8D81-B1013D8145C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B6A570E-B82B-403C-9CDC-ED3A9C297FB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B6A570E-B82B-403C-9CDC-ED3A9C297FB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B6A570E-B82B-403C-9CDC-ED3A9C297FB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B6A570E-B82B-403C-9CDC-ED3A9C297FB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
