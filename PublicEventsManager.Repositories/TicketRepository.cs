@@ -5,6 +5,7 @@ using PublicEventsManager.Entities;
 
 namespace PublicEventsManager.Repositories
 {
+    //Reviewer OM: you don`t need summary everywhere
     /// <summary>
     /// Defines a repository for tickets
     /// </summary>
