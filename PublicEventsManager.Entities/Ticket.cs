@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+//Reviewer OM: delete namespaces that you don`t use
 namespace PublicEventsManager.Entities
 {
     /// <summary>
