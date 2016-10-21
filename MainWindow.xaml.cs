@@ -26,6 +26,7 @@ namespace PublicEventsManager
     {
         private static string _connectionString = ConfigurationManager.ConnectionStrings["PublicEventsManagerConnectionString"].ConnectionString;
         List<PublicEventViewModel> publicEventsViewModels = new List<PublicEventViewModel>();
+        //Reviewer OM:better initialize List<PublicEvent> after login  
         List<PublicEvent> publicEvents = new PublicEventRepository(_connectionString).GetAllPublicEvents().ToList();
 
         public MainWindow()
@@ -107,7 +108,7 @@ namespace PublicEventsManager
             }
           
         }
-
+        //Reviewer OM:  System.InvalidOperationException
         private void newPublicEventConfirmButton_Click(object sender, RoutedEventArgs e)
         {
             try
