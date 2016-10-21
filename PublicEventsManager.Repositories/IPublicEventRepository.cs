@@ -8,6 +8,7 @@ namespace PublicEventsManager.Repositories
     /// </summary>
     public interface IPublicEventRepository
     {
+        //Reviewer OM: you don`t need summary, purpose is clear by name 
         /// <summary>
         /// Gets collection of all public events
         /// </summary>
