@@ -1,6 +1,7 @@
 ﻿using System;
 namespace PublicEventsManager.Entities
 {
+    //Reviewer OM: you don`t need summary, purpose is clear by name 
     /// <summary>
     /// Represents an event date model
     /// </summary>
