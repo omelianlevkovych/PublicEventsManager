@@ -151,6 +151,7 @@ namespace PublicEventsManager.Repositories
                 using (SqlCommand command = new SqlCommand("spInsertPublicEvent", connectionString))
                 {
                     command.CommandType = CommandType.StoredProcedure;
+                     //Reviewer OM: you don`t have to insert  IDENTITY column
                     command.Parameters.Add("@Id", SqlDbType.Int).Value = publicEvent.Id;
                     command.Parameters.Add("@ManagerId", SqlDbType.Int).Value = publicEvent.ManagerId;
                     command.Parameters.Add("@EventTypeId", SqlDbType.Int).Value = publicEvent.EventTypeId;
@@ -166,6 +167,8 @@ namespace PublicEventsManager.Repositories
             }
         }
 
+        //Reviewer OM: invalid name of stored procedure . Should be spUpdatePublicEvent. 
+        //Reviewer OM: Better to declare stored procedure`s names in one summary of repository
         /// <summary>
         /// Updates public event item
         /// </summary>
