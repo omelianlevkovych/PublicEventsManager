@@ -40,11 +40,13 @@
         /// </summary>
         public string Description { get; set; }
 
+        //Reviewer OM: you can count TicketsAmount from Ticket table
         /// <summary>
         /// Gets or sets public event all tickets amount value
         /// </summary>
         public int TicketsAmount { get; set; }
-
+       
+        //Reviewer OM: you need to count AvailableTicketsAmount from Ticket table
         /// <summary>
         /// Gets or sets public event current available tickets amount value
         /// </summary>
