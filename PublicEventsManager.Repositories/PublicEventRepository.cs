@@ -166,6 +166,8 @@ namespace PublicEventsManager.Repositories
             }
         }
 
+        //Reviewer OM: invalid name of stored procedure . Should be spUpdatePublicEvent. 
+        //Reviewer OM: Better to declare stored procedure`s names in one summary of repository
         /// <summary>
         /// Updates public event item
         /// </summary>
