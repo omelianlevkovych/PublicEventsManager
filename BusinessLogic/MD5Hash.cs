@@ -7,6 +7,8 @@ using System.Security.Cryptography;
 
 namespace PublicEventsManager.BusinessLogic
 {
+    // Review IP: consider creating IHashingService interface and implementing it
+    // Review IP: avoid usage of static classes
     public static class MD5Hash
     {
         /// <summary>
