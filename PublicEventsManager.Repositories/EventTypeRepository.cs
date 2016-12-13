@@ -54,6 +54,7 @@ namespace PublicEventsManager.Repositories
         /// <summary>
         /// Creates new public event type item
         /// </summary>
+        // Review IP: wrong param name, sholud be eventType
         /// <param name="EventType">Event type item</param>
         public void CreateEventType(EventType eventType)
         {

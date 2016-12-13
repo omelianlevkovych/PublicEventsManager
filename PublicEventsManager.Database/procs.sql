@@ -11,6 +11,7 @@ BEGIN
 		Id,
 		FirstName,
 		LastName,
+		-- Review IP: use one approach with [] or without
 		[Login],
 		[Password],
 		[IsDisabled]
@@ -276,6 +277,8 @@ BEGIN TRAN
 		ROLLBACK TRAN
 	END CATCH
 GO
+
+-- REVIEW IP: you forgot to include this SP in drop.sql
 
 --this procedure creates new public event type
 CREATE PROCEDURE spCreateEventType

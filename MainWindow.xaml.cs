@@ -83,11 +83,13 @@ namespace PublicEventsManager
             }
         }
 
+        // Review IP: Method naming convention (PascalCase) (without _)
         private void refreshPriceFitlerButton_Click(object sender, RoutedEventArgs e)
         {
             mainGrid.ItemsSource = publicEventsViewModels;
         }
 
+        // Review IP: remove empty methods
         private void filterByDateButton_Click(object sender, RoutedEventArgs e)
         {
         }
